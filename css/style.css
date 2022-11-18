@@ -1,0 +1,356 @@
+*{
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+body{
+    font-family: sans-serif;
+    margin: 0%;
+}
+
+/* global */
+h1,h2,h3{
+    font-weight: bold;
+    color: blue;
+}
+h1{
+    font-size: 3em;
+}
+h2{
+    font-size: 2em;
+}
+h3{
+    font-size: 1.2em;
+}
+p{
+    color: gray;
+    /* padding-block-end: 5px; */
+}
+.section{
+    background-color: white;
+    max-width: 1400px;
+    height: auto;
+    margin: auto;
+    display: flex;
+}
+.button{
+    font-size: 1em;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+    color: white;
+    background-color: blue;
+    cursor: pointer;
+}
+.button:hover{
+    background-color: rgba(6, 24, 190, 0.753);
+}
+
+/* barra de navegacion */
+header{
+    width: 1400px;
+    height: 100px;
+    display: flex;
+}
+header .navegation{
+    width: 600px;
+    text-align: center;
+}
+.navegation p{
+    color: blue;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+header ul{
+    list-style-type: none;
+    color: gray;
+    padding: 25px;
+}
+.li-color{
+    float: left;
+    margin-right: 50px;
+    display: flex;
+    font-weight: bold;
+}
+.button_nav{
+    padding-top: 25px;
+}
+
+/* seccion 1 */
+.firstPart{
+    margin: 0%;
+    padding: 0%;
+    display: flex;
+}
+.informationpr{
+    background-color:white;
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0px;
+    width: 700px;
+    height: 700px;
+    align-items: center;
+    justify-content:center;
+    position: relative;
+}
+.informationpr h1{
+    margin: 10px 0px;
+}
+.informationpr p{
+    margin-top: 10px;
+}
+.list_part1 li{
+    float: left;
+    margin-right: 25px;
+    display: flex;
+    color: gray;
+}
+.informationpr h2{
+    margin-top: 100px;
+}
+img{
+    width: 700px;
+    height: 700px;
+}
+.image1{
+    justify-content: right;
+    margin: 10px 0px;
+}
+.formulario{
+    position: absolute;
+    margin: 560px 0px 0px 225px;
+    width: 800px;
+    height: 110px;
+    background-color: rgba(247, 241, 241, 0.5);
+    box-shadow: rgba(0, 0, 0, 0.5);
+}
+.info{
+    display: inline-block;
+    padding: 10px 10px;;
+    margin: 10px 10px;
+    /* align-items: center;
+    justify-content: center; */
+}
+.select1{
+    margin: 5px 10px;
+    font-weight: bold;
+    font-size: 1em;
+    border:0px;
+    color: gray;
+    width: 150px;
+    background-color: rgba(247, 241, 241, 0.5);
+    cursor: pointer;
+
+}
+.formulario label{
+    color: blue;
+    font-size: 1em;
+    font-weight: bold;
+}
+
+/* secion 2 */
+.secontPart{
+    display: flex;
+    flex-direction: column;
+    margin: 0%;
+    padding: 0%;
+    background-color: white;
+    width: 1400px;
+    height: auto;
+}
+.image-section2 img{
+
+    width: 1400px;
+    height: 300px;
+    opacity: 1;
+    margin: 0%;
+}
+.informationse{
+    justify-content: left;
+    background-color: white;
+    padding: 20px 150px;
+    margin-top: 0%;
+}
+.benefits{
+    background-color: white;
+    display: flex;
+    padding: 10px 150px;
+    height: 400pxx;
+    width: 1400px;
+}
+.benef{
+    /* background-color: rgba(247, 241, 241, 0.5); */
+    margin-right: 20px;
+    border-radius: 10px;
+    padding: 10px 10px;
+    border: 1px solid rgba(172, 168, 168, 0.219);
+
+}
+.benef:hover{
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+}
+
+/* section 3 */
+.section3{
+    background-color: white;
+    display: flex;
+    margin: 0%;
+    padding: 0%;
+    width: 1400px;
+}
+
+.image3{
+    width: 700px;
+    background-color: white;
+    height: auto;
+    text-align: center;
+}
+.image3 img{
+    width: 600px;
+}
+.informationtr{
+    justify-content: center;
+    padding: 0%;
+    margin: 0%;
+}
+.texttr{
+    padding: 50px 0px 0px 50px;
+    margin-block-end: 50px;
+}
+.listdt{
+    padding-left: 60px;
+}
+.listdt summary{
+    color: blue;
+    font-size: 1em;
+    font-weight: bold;
+    margin-block-end: 20px;
+    padding-top: 10px;
+    height: 40px;
+    background-color: rgba(247, 241, 241, 0.301);
+    box-shadow: rgba(0, 0, 0, 0.5);
+    border: 1px rgba(0, 0, 0, 0.1);
+    list-style: none;
+    cursor: pointer;
+}
+/* details[open] summary{
+    
+}
+details summary::before {
+} */
+
+/* details summary::before {
+    position: absolute;
+    content: "👇";
+} */
+/* .listdt dd{
+    margin-block-end: 10px;
+    color: gray;
+} */
+
+/* part 4 */
+.part4{
+    display:flex;
+    flex-direction: column;
+    margin: 0%;
+    padding: 0%;
+    height: 800px;
+}
+.image4{
+    width: 700px;
+    height: auto;
+    text-align: center;
+}
+.image4 img{
+    width: 600px;
+}
+.description4{
+    width: 700px;
+    height: 250px;
+    padding: 20px 100px;
+}
+.contactos4{
+    width: 700px;
+    height: 450px;
+    display: flex;
+    justify-content: center;
+}
+.block{
+    margin: 10px 20px;
+    width: 200px;
+    text-align: center;
+}
+.blocks{
+    width: 200px;
+    height: 150px;
+    border-radius: 8px;
+    padding-top: 5px;
+    border: 1px solid rgba(172, 168, 168, 0.219);
+    margin-block-end: 10px;
+}
+.blocks:hover{
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+}
+.button1{
+    font-size: 1em;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: none;
+    color: blue;
+    background-color: rgba(172, 168, 168, 0.219);
+    cursor: pointer;
+}
+.button1:hover{
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+    color: white;
+    background-color: blue;
+}
+
+/* footer */
+footer{
+    width: 1400px;
+    height: 300px;
+    display: flex;
+    background-color: azure;
+}
+footer .t_footer{
+    width: 700px;
+    padding: 50px 0px 0px 50px;
+}
+footer .tablef{
+    display: block;
+    padding: 50px 0px 0px 50px;
+    text-align: left;
+}
+table{
+    width: 600px;
+    height: 200px;
+    border-collapse: separate;
+    border-spacing:  5px 10px;
+}
+th{
+    font-size: 1.2em;
+    font-weight: bold;
+    color: blue;
+}
+a{
+    color:grey;
+    text-decoration: none;
+}
+a:hover{
+    color: blue;
+}
+a:visited{
+    color: blue;
+}
+
+
+
+
+
